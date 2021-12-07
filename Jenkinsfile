@@ -8,5 +8,20 @@ pipeline {
                 '''
             }
         }
+        stage('primeros pasos') {
+            steps {
+                sh '''
+                echo "como"
+                '''
+            }
+        }
+         stage('primeros pasos') {
+            steps {
+                sh '''
+                echo "hola"
+                '''
+            }
+         }
+        }
     }
 }
