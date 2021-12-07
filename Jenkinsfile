@@ -1,5 +1,5 @@
 pipeline {
-    agent any
+    agent Crystal
     stages {
         stage('primeros pasos') {
             steps {
