@@ -8,14 +8,14 @@ pipeline {
                 '''
             }
         }
-        stage('primeros pasos') {
+        stage('build') {
             steps {
                 sh '''
                 echo "como"
                 '''
             }
         }
-         stage('primeros pasos') {
+         stage('deploy') {
             steps {
                 sh '''
                 echo "hola"
