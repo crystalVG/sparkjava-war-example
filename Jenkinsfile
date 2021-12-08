@@ -5,6 +5,7 @@ pipeline {
             steps {
                 sh '''
                 echo "hola"
+                echo $CV_Parameter
                 '''
             }
         }
