@@ -18,7 +18,7 @@ pipeline {
          stage('deploy') {
             steps {
                 sh '''
-                docker cp "/root/workspace/Pipeline_Crystal/target/sparkjava-hello-world-1.0.war" elegant_morse:"/usr/local/tomcat/webapps"
+                docker cp "/root/workspace/CV_Folder/Crystal pipeline/target/sparkjava-hello-world-1.0.war" interesting_mclaren:"/usr/local/tomcat/webapps"
                 '''
             }
         }
